@@ -7,8 +7,10 @@ attr_accessor :word
     @word = word
   end
   
-  def matching
+  def match
     
+  else
+    []
   end
 
 
