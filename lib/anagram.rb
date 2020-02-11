@@ -7,7 +7,7 @@ attr_accessor :word
     @word = word
   end
   
-  def match(%w(words))
+  def match(array_of_words)
     @word.
     
   else
