@@ -11,8 +11,6 @@ attr_accessor :word
     array_of_words.select do |x| 
      (@word.split("").sort) == (x.split("").sort)
     
-  else
-    []
   end
 
 
